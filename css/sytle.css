@@ -1,0 +1,38 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(45deg, grey, rgb(83, 71, 71));
+}
+
+.tela-login{
+    background-color: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    top:50%; /*Deixa a página centralizada*/
+    left: 50%; /*Deixa a página centralizada*/
+    transform: translate(-50%, -50%); /*Deixa a página centralizada*/
+    padding: 80px; /*Distancia dos elementos entre a borda*/
+    border-radius: 15px; /*Arredonda as bordas*/
+    color: white;
+}
+
+/*Quando é colocado os dados de Login da página*/
+input{
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+button{
+    background-color: rgb(65, 77, 88); /*Cor do botão*/
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: rgb(48, 54, 53);
+    cursor: pointer;
+}
